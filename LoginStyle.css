@@ -1,0 +1,117 @@
+body {
+	background-color: #677e72
+
+}
+
+.box {
+
+	width:350px;
+	height:350px;
+	margin:0 auto;
+	margin-top: 120px;
+	font-size:20px;
+	position:relative;
+	border-radius: 10px;
+	background-color: #b9c6bf;
+}
+
+.form {
+	margin-top: 60px;
+  margin-left: 33px;
+
+}
+#padding {
+	padding-top: 15px;
+	padding-left: 48px;
+}
+
+.textbox {
+		width: 90%;
+    padding: 12px 55px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #d5ddd9;
+		border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+		color:  #5a7265;
+    outline: none;
+
+}
+#user {
+		background-image: url("Image/use.png");
+	  background-repeat: no-repeat;
+		background-size: 38px 38px;
+		background-position: 4px 4px;
+}
+
+#pass {
+		background-image: url("Image/pass.png");
+	  background-repeat: no-repeat;
+	  background-size: 35px 35px;
+		background-position: 7px 5px;
+}
+
+.textbox:focus {
+    border: 2px solid #5a7265;
+}
+.textbox,
+.textbox::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+.textbox::-webkit-input-placeholder {
+    color: #d5ddd9;
+}
+
+.submit{
+			background-color: #9dafa5;
+	    border: none;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+			border-radius: 5px;
+			position: 400px;
+			margin-top: 10px;
+			margin-left: 85px;
+	    cursor: pointer;
+}
+.submit:hover {background-color:  #81988b}
+
+.submit:active {
+  background-color: #81988b;
+  transform: translateY(2px);
+}
+
+.bar {
+    position: relative;
+    background: #C03737;
+    border: 1px solid #830303;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.bar:after, .bar:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 50%;
+}
+.bar:before {
+    right: -8px;
+    margin-top: -8px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #830303;
+}
+.bar:after {
+    right: -7px;
+    margin-top: -7px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #C03737;
+}
